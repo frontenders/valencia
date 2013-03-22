@@ -162,6 +162,14 @@ a.workether {
 
 .orange { color: #cf7b15;}
 
+.undefined { 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+	}
+
 /* ===== media queries ========================================================== */
 
 
@@ -346,9 +354,6 @@ a.workether {
 			}
 
 
-
-
-
 	footer {
 	  padding: 0 25px 20px;
 	  font-size: 16px;
@@ -392,9 +397,6 @@ a.workether {
 	  height: 100px;
 		float: right;
 	}
-
-
-
 
 
 	
