@@ -53,7 +53,7 @@ header h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    margin: 0 0 0 124px;
+    margin: 0 0 0 170px;
     display: block;
   }
 
@@ -123,12 +123,6 @@ footer {
       margin: 0;
     }
 
-	  footer section.middle,
-	 	footer section.last {
-			
-	  }
-
-
 	  footer section.middle a{
 	    font-size: 20px;
 	    margin-bottom: 6px;
@@ -172,22 +166,135 @@ a.workether {
 
 /* ===== media queries ========================================================== */
 
-/* Style adjustments for viewports 480px and over go here */ 
-@media only screen and (min-width: 480px) { 
-	body {
-		background: #000;
-	}
-	
-} /* min-width: 480px */
 
-/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
-@media only screen and (min-width: 769px) { 
-	body {
-	}
+/* Used to alter styles for screens at least 768px wide. */
+@media only screen and (min-width: 768px) { 
+	
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    line-height: 72px;
+    background: url(../img/frontenders_logo.png) top center no-repeat;
+    padding: 90px 0 0;
+
+		width: 460px;
+
+	  margin: 10px auto 5px;
+
+  }
+
+    header h1 span{
+      font-size: 30px;
+      line-height: 30px;
+      text-align: right;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin: 0 68px 0 0;
+      display: block;
+    }
+
+		  header h2 {
+		    font-size: 28px;
+		    line-height: 30px;
+		  }
+
+		  header h2 span {
+		    display: inline;
+		  }
+
+			#main {
+				width: 714px;
+			  margin-left: auto;
+				margin-right: auto;
+			}
+
+		.eyelet { font-size: 20px; width: 740px; margin-left: auto; margin-right: auto; margin-bottom: 0;}
+
+		.scream { font-size: 34px;}
+		.scream span { display: inline;}
+
+		#main section.content {
+			float: left;
+		  width: 272px;
+		  padding: 10px 15px;
+		  border: 2px solid #fff;
+			margin: 0 25px 30px;
+		  -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+		  -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+		  box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+		  -webkit-border-radius: 10px;
+		  -moz-border-radius: 10px;
+		  border-radius: 10px;
+		}
+
+		#main section.content h2 {
+		  font-size: 24px;
+		  font-weight: 400;
+		  margin-top: 0;
+		}
+
+		#main section.content p {
+		  font-size: 16px;
+		}
+
+		footer {
+		  padding: 0 25px 20px 25px;
+		  font-size: 16px;
+			width: 714px;
+		  margin-left: auto;
+			margin-right: auto;
+		}
+
+		  footer section {
+				width: 238px;
+		    margin: 0 auto 20px;
+				float: left;
+		  }
+
+		    footer section h3 {
+		      font-size: 22px;
+		      margin: 0 0 3px 0;
+		    }
+
+		    footer section p{
+		      margin: 0;
+		    }
+
+			  footer section.first {
+					text-align: left;
+			  }
+
+			  footer section.middle {
+					text-align: center;
+			  }
+
+			  footer section.middle a{
+			    font-size: 20px;
+			    margin-bottom: 6px;
+			    display: block;
+			  }
+
+			  footer section.last {
+					text-align: right;
+			  }
+
+		a.workether {
+		  background: url(../img/workehter_logo_medium.png) no-repeat top left;
+		  width: 93px;
+		  height: 100px;
+			float: right;
+		}
 	
 	
 } /* min-width: 768px */
 
+/* Used to alter styles for screens at least 960px wide. */
+@media only screen and (min-width: 1024px) { 
+
+	
+	
+} /* min-width: 960px */
 
 
 
