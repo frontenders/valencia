@@ -158,9 +158,7 @@ a.workether {
 .centered  { text-align: center; }
 .righted  { text-align: right; }
 
-
 .margin_top_0 { margin-top: 0;}
-
 
 .orange { color: #cf7b15;}
 
@@ -176,9 +174,7 @@ a.workether {
     line-height: 72px;
     background: url(../img/frontenders_logo.png) top center no-repeat;
     padding: 90px 0 0;
-
 		width: 460px;
-
 	  margin: 10px auto 5px;
 
   }
@@ -217,9 +213,9 @@ a.workether {
 		#main section.content {
 			float: left;
 		  width: 272px;
-		  padding: 10px 15px;
+		  padding: 15px 20px;
 		  border: 2px solid #fff;
-			margin: 0 25px 30px;
+			margin: 0 20px 30px;
 		  -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
 		  -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
 		  box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
@@ -248,7 +244,7 @@ a.workether {
 
 		  footer section {
 				width: 238px;
-		    margin: 0 auto 20px;
+		    margin: 0 0 20px;
 				float: left;
 		  }
 
@@ -292,9 +288,117 @@ a.workether {
 /* Used to alter styles for screens at least 960px wide. */
 @media only screen and (min-width: 1024px) { 
 
+	#main, footer, hgroup {
+	  width: 1000px;
+	  margin: 0 auto;
+	  padding: 10px 20px;
+	}
+
+	  header h1 {
+	    margin: 10px 0 5px;
+			float: left;
+	  }
+
+
+
+	  header h2 {
+	    width: 325px;
+	    text-align: right;
+	    font-size: 30px;
+	    line-height: 34px;
+	    margin: 80px 0 30px;
+			float: right;
+	  }
+
+	    header h2 span {
+	      display: block;
+	    }
+
+
+	#main {
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	}
+
+	.eyelet { font-size: 24px; width: 1000px; margin-left: 0; margin-right: 0; }
+
+	.scream { font-size: 36px;}
+
+	  #main section.content {
+	    width: 324px;
+	    padding: 20px 25px;
+	    border: 2px solid #fff;
+			margin: 0 35px 30px;
+	  }
+
+	    #main section.content.first_box { margin-left: 85px; }
+	    #main section.content.second_box { margin-right: 85px; }
+
+			#main section.content h2 {
+			  font-size: 24px;
+			  font-weight: 400;
+			  margin-top: 0;
+			}
+
+			#main section.content p {
+			  font-size: 18px;
+				line-height: 24px;
+			}
+
+
+
+
+
+	footer {
+	  padding: 0 25px 20px;
+	  font-size: 16px;
+	}
+
+	  footer section {
+	    width: 320px;
+	    margin: 0;
+	  }
+
+	    footer section h3 {
+	      margin: 0 0 5px 0;
+	    }
+
+	    footer section p{
+	      margin: 0;
+	    }
+
+	  footer section.first p{
+	    width: 260px;
+	    margin: 0 20px 0 0;
+	  }
+
+	  footer section.middle {
+	    width: 160px;
+	    float: left;
+	    margin: 0 100px 0;
+	  }
+
+	  footer section.middle a{
+	    font-size: 20px;
+	    margin-bottom: 6px;
+	    display: block;
+	  }
+
+
+
+	a.workether {
+	  background: url(../img/workehter_logo_medium.png) no-repeat top left;
+	  width: 93px;
+	  height: 100px;
+		float: right;
+	}
+
+
+
+
+
 	
-	
-} /* min-width: 960px */
+} /* min-width: 1024px */
 
 
 
