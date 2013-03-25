@@ -110,7 +110,7 @@ footer {
 
 a.orange_button {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.2);
     height: 32px;
@@ -118,6 +118,7 @@ a.orange_button {
     padding: 0 10px;
     display: inline-block;
     letter-spacing: 1px;
+    border: 1px solid #CF7B15;
     background: -webkit-gradient(linear, left top, left bottom, from(#CF7B15), to(#e37d0b)); /* Chrome,Safari4+ */
     background: -moz-linear-gradient(top,  #CF7B15,  #e37d0b); /* FF3.6+ */
     background: -webkit-linear-gradient(top, #CF7B15, #e37d0b); /* Chrome10+,Safari5.1+ */
