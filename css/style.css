@@ -47,6 +47,8 @@ header h1 {
   padding: 56px 0 0;
 }
 
+header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decoration: none; }
+
   header h1 span{
     font-size: 20px;
     line-height: 20px;
@@ -76,9 +78,13 @@ header h1 {
 }
 
 .eyelet { font-size: 18px; width: 300px; margin-left: auto; margin-right: auto;}
+.eyelet b { display: block; }
+.eyelet cite { font-size: 16px; display: block; }
 
 .scream { font-size: 26px;}
 .scream span { display: block;}
+
+.paragraph { font-size: 18px; margin-left: auto; margin-right: auto; }
 
 #main section.content {
   width: 242px;
@@ -101,6 +107,16 @@ header h1 {
 
 #main section.content p {
   font-size: 16px;
+}
+
+#main section.full_box {
+  width: 272px;
+  font-size: 15px;
+  display: block;
+  overflow: hidden;
+  padding: 10px 0px;
+  margin: 0 auto 30px;
+
 }
 
 footer {
@@ -193,6 +209,7 @@ a.workether {
 .righted  { text-align: right; }
 
 .margin_top_0 { margin-top: 0;}
+.margin_bottom_0 { margin-bottom: 0;}
 .margin_bottom_20 { margin-bottom: 20px;}
 
 .orange { color: #cf7b15;}
@@ -249,9 +266,14 @@ a.workether {
       }
 
     .eyelet { font-size: 20px; width: 740px; margin-left: auto; margin-right: auto; margin-bottom: 0;}
+    .eyelet b, .eyelet cite { display: inline; }
+    
 
     .scream { font-size: 34px;}
     .scream span { display: inline;}
+
+    .paragraph { font-size: 18px; width: 740px;  margin-left: auto; margin-right: auto; }
+
 
     #main section.content {
       float: left;
@@ -275,6 +297,12 @@ a.workether {
 
     #main section.content p {
       font-size: 16px;
+    }
+
+    #main section.full_box {
+      width: 620px;
+      font-size: 18px;
+      padding: 10px 15px;
     }
 
     footer {
@@ -367,6 +395,8 @@ a.workether {
 
   .scream { font-size: 36px;}
 
+  .paragraph { font-size: 20px; width: 860px;  margin-left: auto; margin-right: auto; }
+
     #main section.content {
       width: 324px;
       padding: 20px 25px;
@@ -387,6 +417,7 @@ a.workether {
         font-size: 18px;
         line-height: 24px;
       }
+
 
 
   footer {
