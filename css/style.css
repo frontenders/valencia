@@ -180,11 +180,21 @@ a.orange_button:hover {
     }
 
 a.workether {
-  background: url(../img/workehter_logo_small.png) no-repeat top left;
+  background: url(../img/workether_logo_small.png) no-repeat top left;
   width: 139px;
   height: 150px;
   margin: 0 auto;
 }
+
+a.qikker {
+  background: url(../img/qikker_logo_medium.png) no-repeat top left;
+  width: 155px;
+  height: 45px;
+  margin: 20px auto 30px;
+}
+
+
+
 
 /* ===== media with different viewport classes ============================================ */
 @media only screen and (min-width: 35em) {
@@ -305,6 +315,8 @@ a.workether {
       padding: 10px 15px;
     }
 
+    .small_caption { width: 250px; }
+
     footer {
       padding: 0 25px 20px 25px;
       font-size: 16px;
@@ -346,11 +358,24 @@ a.workether {
           text-align: right;
         }
 
+        footer section.last h3 {
+          text-align: center;
+          margin-bottom: 10px;
+        }
+
     a.workether {
-      background: url(../img/workehter_logo_medium.png) no-repeat top left;
-      width: 93px;
-      height: 100px;
+      background: url(../img/workether_logo_big.png) no-repeat top left;
+      width: 80px;
+      height: 86px;
       float: right;
+    }
+
+    a.qikker {
+      background: url(../img/qikker_logo_big.png) no-repeat top left;
+      width: 130px;
+      height: 38px;
+      margin: 10px 5px 0 0;
+      float: left;
     }
 
 
@@ -418,6 +443,7 @@ a.workether {
         line-height: 24px;
       }
 
+    .small_caption { width: 200px; }
 
 
   footer {
@@ -455,14 +481,29 @@ a.workether {
       display: block;
     }
 
+    footer section.last {
+      float: right;
+      text-align: right;
+      width: 280px;
+    }
+
 
 
   a.workether {
-    background: url(../img/workehter_logo_medium.png) no-repeat top left;
+    background: url(../img/workether_logo_medium.png) no-repeat top left;
     width: 93px;
     height: 100px;
     float: right;
   }
+
+    a.qikker {
+      background: url(../img/qikker_logo_medium.png) no-repeat top left;
+      width: 155px;
+      height: 45px;
+      margin: 0 5px 0 0;
+      float: left;
+    }
+
 
 
 
