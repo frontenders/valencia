@@ -222,6 +222,8 @@ a.qikker {
 .margin_bottom_0 { margin-bottom: 0;}
 .margin_bottom_20 { margin-bottom: 20px;}
 
+.max_width { max-width 100%; }
+
 .orange { color: #cf7b15;}
 
 .undefined {
