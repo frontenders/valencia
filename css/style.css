@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background: #cf7b15;
+  background: #e67e22;
   -moz-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
   -webkit-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
   box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
@@ -41,7 +41,6 @@ header h1 {
   font-size: 46px;
   line-height: 46px;
   color: #fff;
-  text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5);
   margin: 10px auto 5px;
   background: url(../img/frontenders_logo_small.png) top center no-repeat;
   padding: 56px 0 0;
@@ -64,7 +63,6 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
     font-size: 24px;
     line-height: 26px;
     color: #fff;
-    text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5);
     text-align: center;
     margin: 30px 0 30px;
   }
@@ -128,20 +126,12 @@ a.orange_button {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.2);
     height: 32px;
     line-height: 32px;
     padding: 0 10px;
     display: inline-block;
     letter-spacing: 1px;
-    border: 1px solid #CF7B15;
-    background: -webkit-gradient(linear, left top, left bottom, from(#CF7B15), to(#e37d0b)); /* Chrome,Safari4+ */
-    background: -moz-linear-gradient(top,  #CF7B15,  #e37d0b); /* FF3.6+ */
-    background: -webkit-linear-gradient(top, #CF7B15, #e37d0b); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #CF7B15, #e37d0b); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #CF7B15, #e37d0b); /* IE10+ */
-    background: linear-gradient(top, #CF7B15, #e37d0b); /* W3C */
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#CF7B15', endColorstr='#e37d0b');  /* IE6-9 */
+    background: #e67e22;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -151,7 +141,6 @@ a.orange_button {
 }
 
 a.orange_button:hover {
-    text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.1);
   text-decoration: none;
   background: #CF7B15;
 }
@@ -224,7 +213,7 @@ a.qikker {
 
 .max_width { max-width 100%; }
 
-.orange { color: #cf7b15;}
+.orange { color: #e67e22;}
 
 .undefined {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
