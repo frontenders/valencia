@@ -82,6 +82,9 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
 .scream { font-size: 26px;}
 .scream span { display: block;}
 
+.past { font-size: 24px;}
+
+
 .paragraph { font-size: 18px; margin-left: auto; margin-right: auto; }
 
 #main section.content {
@@ -116,6 +119,20 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
   margin: 0 auto 30px;
 
 }
+
+#main section.full_box h3 {
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+
+#main section.full_box.sponsor a {
+  margin: 0px auto;
+  float: none;
+}
+
+
+
 
 footer {
   padding: 0 25px 20px 25px;
@@ -168,20 +185,28 @@ a.orange_button:hover {
       display: block;
     }
 
-a.workether {
-  background: url(../img/workether_logo_small.png) no-repeat top left;
-  width: 139px;
-  height: 150px;
-  margin: 0 auto;
-}
+  a.workether {
+    background: url(../img/workether_logo_small.png) no-repeat top left;
+    width: 139px;
+    height: 150px;
+    margin: 0 auto;
+  }
 
-a.ombushop {
-  background: url(../img/ombushop_logo_medium.png) no-repeat top left;
-  width: 155px;
-  height: 45px;
-  margin: 20px auto 30px;
-}
+  a.sponsor_image {
+    margin: 20px auto 30px;
+  }
 
+  a.qikker {
+    background: url(../img/qikker_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+  a.ombushop {
+    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
 
 
 
@@ -208,6 +233,8 @@ a.ombushop {
 .righted  { text-align: right; }
 
 .margin_top_0 { margin-top: 0;}
+.margin_top_20 { margin-top: 20px;}
+.margin_top_40 { margin-top: 40px;}
 .margin_bottom_0 { margin-bottom: 0;}
 .margin_bottom_20 { margin-bottom: 20px;}
 
@@ -272,6 +299,9 @@ a.ombushop {
 
     .scream { font-size: 34px;}
     .scream span { display: inline;}
+
+    .past { font-size: 32px;}
+
 
     .paragraph { font-size: 18px; width: 740px;  margin-left: auto; margin-right: auto; }
 
@@ -361,12 +391,21 @@ a.ombushop {
       float: right;
     }
 
+    a.sponsor_image {
+      margin: 15px 5px 0 0;
+      float: left;      
+    }
+
+    a.qikker {
+      background: url(../img/qikker_logo_big.png) no-repeat top left;
+      width: 130px;
+      height: 38px;
+    }
+
     a.ombushop {
       background: url(../img/ombushop_logo_big.png) no-repeat top left;
       width: 130px;
       height: 38px;
-      margin: 15px 5px 0 0;
-      float: left;
     }
 
 
@@ -410,6 +449,8 @@ a.ombushop {
   .eyelet { font-size: 24px; width: 1000px; margin-left: 0; margin-right: 0; }
 
   .scream { font-size: 36px;}
+  .past { font-size: 34px;}
+
 
   .paragraph { font-size: 20px; width: 860px;  margin-left: auto; margin-right: auto; }
 
@@ -487,13 +528,22 @@ a.ombushop {
     float: right;
   }
 
-    a.ombushop {
-      background: url(../img/ombushop_logo_medium.png) no-repeat top left;
-      width: 155px;
-      height: 45px;
-      margin: 25px 5px 0 0;
-      float: left;
-    }
+  a.sponsor_image {
+    margin: 25px 5px 0 0;
+    float: left;
+  }
+
+  a.qikker {
+    background: url(../img/qikker_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
+
+  a.ombushop {
+    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
+    width: 155px;
+    height: 45px;
+  }
 
 
 
