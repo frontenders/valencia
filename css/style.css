@@ -2,6 +2,7 @@
 
 
 body {  font-size: 1em; line-height: 1.4; }
+html { overflow-y: scroll; }
 html, body, button, input, select, textarea { color: #53585e; }
 
 ::-moz-selection { background: #1ea0ce; color: #fff; text-shadow: none; }
