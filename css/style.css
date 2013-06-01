@@ -31,6 +31,7 @@ header {
   -moz-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
   -webkit-box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
   box-shadow: 0px 2px 10px rgba( 161, 161, 161, 0.5);
+  padding-bottom: 5px;
 }
 
 #main, footer, hgroup {
@@ -71,6 +72,50 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
   header h2 span {
     display: block;
   }
+
+  nav {
+    text-align: center;
+
+  }
+
+  nav ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  nav li a,
+  nav li a:visited {
+    color: #fff;
+    background-color: rgba(243, 156, 18,1.0);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding: 5px 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+
+  nav li a:hover {
+    color: #fff;
+    background-color: rgba(211, 84, 0,0.5);
+    text-decoration: none;
+  }
+
+  nav li a.selected {
+    color: #fff;
+    background-color: rgba(211, 84, 0,0.5);
+  }
+
 
 #main {
   margin-top: 25px;
@@ -288,6 +333,14 @@ a.orange_button:hover {
         display: inline;
       }
 
+      nav li a,
+      nav li a:visited {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 5px 15px;
+      }
+
+
       #main {
         width: 714px;
         margin-left: auto;
@@ -433,7 +486,7 @@ a.orange_button:hover {
       text-align: right;
       font-size: 30px;
       line-height: 34px;
-      margin: 80px 0 30px;
+      margin: 15px 0 52px;
       float: right;
     }
 
@@ -441,6 +494,21 @@ a.orange_button:hover {
         display: block;
       }
 
+    nav {
+      margin: 0;
+    }  
+
+    nav ul {
+      
+      float: right;
+    }  
+
+      nav li a,
+      nav li a:visited {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 5px 15px;
+      }
 
   #main {
     margin-top: 25px;
