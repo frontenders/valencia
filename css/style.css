@@ -185,16 +185,17 @@ footer {
   font-size: 16px;
 }
 
-a.orange_button {
-    font-weight: bold;
+a.orange_button,
+a.orange_button:visited {
     font-size: 18px;
     color: #fff;
-    height: 32px;
-    line-height: 32px;
-    padding: 0 10px;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 12px;
+    letter-spacing: 1px;
     display: inline-block;
     letter-spacing: 1px;
-    background: #e67e22;
+    background-color: rgba(230, 126, 34, 1.0);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -204,8 +205,9 @@ a.orange_button {
 }
 
 a.orange_button:hover {
+  color: #fff;
+  background-color: rgba(220, 105, 17, 1.0);
   text-decoration: none;
-  background: #CF7B15;
 }
 
 .small_caption { width: 200px; margin: 0 auto; line-height: 14px; margin-top: 5px;}
