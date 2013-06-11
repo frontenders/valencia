@@ -166,6 +166,10 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
 
 }
 
+#main section.full_box.home {
+  margin: 0 auto;
+}
+
 #main section.full_box h3 {
   letter-spacing: 1px;
   margin: 5px 0;
