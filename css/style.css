@@ -256,6 +256,12 @@ a.orange_button:hover {
     height: 45px;
   }
 
+a.turia {
+    background: url(../img/logo_turia_200.png) no-repeat top left;
+    width: 200px;
+    height: 167px;
+  }
+
 
 
 /* ===== media with different viewport classes ============================================ */
