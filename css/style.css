@@ -442,8 +442,7 @@ a.turia {
         }
 
         footer section.last h3 {
-          text-align: center;
-          margin-bottom: 10px;
+          margin: 0 4px 5px 0;
         }
 
     a.workether {
@@ -595,6 +594,11 @@ a.turia {
       text-align: right;
       width: 280px;
     }
+
+    footer section.last h3 {
+      margin: 0 10px 5px 0;
+    }
+
 
 
 
