@@ -266,6 +266,11 @@ a.turia {
     height: 125px;
   }
 
+a.camiseta {
+    background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
+    width: 150px;
+    height: 98px;
+  }
 
 
 /* ===== media with different viewport classes ============================================ */
