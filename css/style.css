@@ -266,6 +266,12 @@ a.turia {
     height: 125px;
   }
 
+a.onbile {
+    background: url(../img/onbile_logo.png) no-repeat top left;
+    width: 155px;
+    height: 69px;
+  }
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
