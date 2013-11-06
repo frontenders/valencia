@@ -272,6 +272,14 @@ a.onbile {
     height: 69px;
   }
 
+a.vstartups {
+    background: url(../img/valenciastartups_120.png) no-repeat top left;
+    width: 120px;
+    height: 120px;
+  }
+
+  
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
