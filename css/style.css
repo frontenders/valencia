@@ -239,7 +239,7 @@ a.orange_button:hover {
 
   a.workether {
     background: url(../img/workether_logo_small.png) no-repeat top left;
-    width: 139px;
+    width: 171px;
     height: 150px;
     margin: 0 auto;
   }
@@ -467,13 +467,13 @@ a.camiseta {
         }
 
         footer section.last h3 {
-          margin: 0 4px 5px 0;
+          margin: 0 8px 5px 0;
         }
 
     a.workether {
       background: url(../img/workether_logo_big.png) no-repeat top left;
-      width: 80px;
-      height: 86px;
+      width: 90px;
+      height: 79px;
       float: right;
     }
 
@@ -630,7 +630,7 @@ a.camiseta {
   a.workether {
     background: url(../img/workether_logo_medium.png) no-repeat top left;
     width: 93px;
-    height: 100px;
+    height: 81px;
     float: right;
   }
 
