@@ -278,7 +278,11 @@ a.vstartups {
     height: 120px;
   }
 
-  
+a.emergia {
+    background: url(../img/emergia_logo.png) no-repeat top left;
+    width: 254px;
+    height: 50px;
+  }
 
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
@@ -381,7 +385,7 @@ a.camiseta {
 
     .eyelet { font-size: 20px; width: 740px; margin-left: auto; margin-right: auto; margin-bottom: 0;}
     .eyelet b, .eyelet cite { display: inline; }
-    
+
 
     .scream { font-size: 34px;}
     .scream span { display: inline;}
@@ -479,7 +483,7 @@ a.camiseta {
 
     a.sponsor_image {
       margin: 15px 5px 0 0;
-      float: left;      
+      float: left;
     }
 
     a.qikker {
@@ -528,12 +532,12 @@ a.camiseta {
 
     nav {
       margin: 0;
-    }  
+    }
 
     nav ul {
-      
+
       float: right;
-    }  
+    }
 
       nav li a,
       nav li a:visited {
