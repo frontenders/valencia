@@ -290,6 +290,12 @@ a.camiseta {
     height: 98px;
   }
 
+a.camaloon {
+    background: url(../img/camaloon_logo.png) no-repeat top left;
+    width: 300px;
+    height: 81px;
+  }
+
 
 /* ===== media with different viewport classes ============================================ */
 @media only screen and (min-width: 35em) {
