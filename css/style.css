@@ -297,6 +297,7 @@ a.camaloon {
   }
 
 
+
 /* ===== media with different viewport classes ============================================ */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
