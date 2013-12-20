@@ -163,12 +163,18 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
   overflow: hidden;
   padding: 10px 0px;
   margin: 0 auto 30px;
-
 }
 
 #main section.full_box.home {
   margin: 0 auto;
 }
+
+#main section.full_box.margin_top_40 {
+  margin: 40px auto 0;
+}
+
+
+
 
 #main section.full_box h3 {
   letter-spacing: 1px;
