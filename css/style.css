@@ -303,6 +303,15 @@ a.camaloon {
   }
 
 
+/*== Open Space styles ==*/
+
+#main.openspace h2 { font-size: 48px; letter-spacing: 2px; }
+#main.openspace h2 span { display: block; font-size: 32px; letter-spacing: 1px;}
+#main.openspace h3 { font-size: 30px;}
+#main.openspace p { margin: 5px 0;}
+#main.openspace p, #main.openspace ol li { font-size: 20px;}
+
+
 
 /* ===== media with different viewport classes ============================================ */
 @media only screen and (min-width: 35em) {
@@ -329,6 +338,7 @@ a.camaloon {
 .margin_top_0 { margin-top: 0;}
 .margin_top_20 { margin-top: 20px;}
 .margin_top_40 { margin-top: 40px;}
+.margin_top_80 { margin-top: 80px;}
 .margin_bottom_0 { margin-bottom: 0;}
 .margin_bottom_10 { margin-bottom: 10px;}
 .margin_bottom_20 { margin-bottom: 20px;}
