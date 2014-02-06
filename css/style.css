@@ -302,6 +302,12 @@ a.camaloon {
     height: 200px;
   }
 
+a.iti {
+    background: url(../img/iti_logo.png) no-repeat top left;
+    width: 368px;
+    height: 100px;
+  }
+
 
 /*== Open Space styles ==*/
 
