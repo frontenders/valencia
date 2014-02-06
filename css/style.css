@@ -314,6 +314,7 @@ a.iti {
 #main.openspace h2 { font-size: 48px; letter-spacing: 2px; }
 #main.openspace h2 span { display: block; font-size: 32px; letter-spacing: 1px;}
 #main.openspace h3 { font-size: 30px;}
+#main.openspace h4 { font-size: 22px; margin-bottom: 10px;}
 #main.openspace p { margin: 5px 0;}
 #main.openspace p, #main.openspace ol li { font-size: 20px;}
 
@@ -348,6 +349,9 @@ a.iti {
 .margin_bottom_0 { margin-bottom: 0;}
 .margin_bottom_10 { margin-bottom: 10px;}
 .margin_bottom_20 { margin-bottom: 20px;}
+.margin_bottom_40 { margin-bottom: 40px;}
+.margin_auto { margin-left: auto; margin-right: auto;}
+
 
 .max_width { max-width 100%; }
 
