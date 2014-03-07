@@ -317,8 +317,24 @@ a.iti {
 #main.openspace h4 { font-size: 22px; margin-bottom: 10px;}
 #main.openspace p { margin: 5px 0;}
 #main.openspace p, #main.openspace ol li { font-size: 20px;}
+.inscription_form {
+  
+  margin: 0px;
+}
+
+.inscription_form input[type="text"] {
+  margin-bottom: 15px;
+  border: 1px solid #E4E4E4;
+  line-height: 18px;
+  height: 18px;
+  padding: 5px 5px 3px;
+  width: 300px;
+}
+
+.inscription_form input[type="image"] {
 
 
+}
 
 /* ===== media with different viewport classes ============================================ */
 @media only screen and (min-width: 35em) {
@@ -436,6 +452,19 @@ a.iti {
       padding: 15px 20px;
       border: 2px solid #fff;
       margin: 0 20px 30px;
+      -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+      -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+      box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+
+    #main section.content_alone {
+      width: 314px;
+      padding: 15px 20px;
+      border: 2px solid #fff;
+      margin: 25px auto;
       -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
       -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
       box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
