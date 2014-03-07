@@ -138,9 +138,9 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
   padding: 10px 15px;
   border: 2px solid #fff;
   margin: 0 auto 30px;
-  -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
-  -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
-  box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+  -moz-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+  -webkit-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+  box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -452,9 +452,9 @@ a.iti {
       padding: 15px 20px;
       border: 2px solid #fff;
       margin: 0 20px 30px;
-      -moz-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
-      -webkit-box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
-      box-shadow: 1px 1px 12px rgba( 161, 161, 161, 0.5);
+      -moz-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      -webkit-box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
+      box-shadow: 0px 0px 3px rgba( 161, 161, 161, 0.5);
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       border-radius: 10px;
