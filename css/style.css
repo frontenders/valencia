@@ -303,6 +303,12 @@ a.emergia {
     height: 50px;
   }
 
+a.singularu {
+    background: url(../img/logo_singularu.png) no-repeat top left;
+    width: 180px;
+    height: 135px;
+  }
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
