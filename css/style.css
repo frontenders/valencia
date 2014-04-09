@@ -303,6 +303,12 @@ a.emergia {
     height: 50px;
   }
 
+a.singularu {
+    background: url(../img/logo_singularu.png) no-repeat top left;
+    width: 180px;
+    height: 135px;
+  }
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
@@ -331,7 +337,7 @@ a.iti {
 #main.openspace p { margin: 5px 0;}
 #main.openspace p, #main.openspace ol li { font-size: 20px;}
 .inscription_form {
-  
+
   margin: 0px;
 }
 
@@ -379,6 +385,8 @@ a.iti {
 .margin_bottom_10 { margin-bottom: 10px;}
 .margin_bottom_20 { margin-bottom: 20px;}
 .margin_bottom_40 { margin-bottom: 40px;}
+.margin_bottom_80 { margin-bottom: 80px;}
+
 .margin_auto { margin-left: auto; margin-right: auto;}
 
 
