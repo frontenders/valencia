@@ -263,7 +263,7 @@ a.orange_button:hover {
     margin: 0 auto;
   }
 
-  a.sponsor_image {
+  a.sponsor_work {
     margin: 20px auto 30px;
   }
 
@@ -563,6 +563,15 @@ a.iti {
       height: 79px;
       float: right;
     }
+
+
+    a.hangout {
+      background: url(../img/hangout.png) no-repeat top left;
+      width: 40px;
+      height: 36px;
+      display: inline-block;
+    }
+
 
     a.sponsor_image {
       margin: 15px 5px 0 0;
