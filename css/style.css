@@ -481,6 +481,12 @@ a.iti {
       border-radius: 10px;
     }
 
+    #main section.content.single_box {
+      width: 484px;
+      margin: 0 auto 30px;
+      float: none;
+    }
+
     #main section.content_alone {
       width: 314px;
       padding: 15px 20px;
