@@ -660,6 +660,7 @@ a.iti {
 
       #main section.content.first_box { margin-left: 50px; }
       #main section.content.second_box { margin-right: 50px; }
+      #main section.content.single_box { width: 720px; margin-left: 100px; }
 
       #main section.content h2 {
         font-size: 24px;
