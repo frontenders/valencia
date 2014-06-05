@@ -309,6 +309,12 @@ a.singularu {
     height: 135px;
   }
 
+a.vbote {
+    background: url(../img/vbote_logo.png) no-repeat top left;
+    width: 206px;
+    height: 80px;
+  }
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
