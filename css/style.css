@@ -322,6 +322,14 @@ a.vbote {
     height: 80px;
   }
 
+a.momentum {
+    background: url(../img/momentum_logo.png) no-repeat top left;
+    width: 300px;
+    height: 70px;
+  }
+
+
+
 a.camiseta {
     background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
     width: 150px;
