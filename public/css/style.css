@@ -328,6 +328,12 @@ a.momentum {
     height: 70px;
   }
 
+a.kuombo {
+    background: url(../img/logo_kuombo.png) no-repeat top left;
+    width: 280px;
+    height: 52px;
+  }
+
 
 
 a.camiseta {
